@@ -16,13 +16,13 @@ module.exports = {
         test: /\.css$/i,
         use: [MiniCssExtractPlugin.loader, 
             'css-loader',
-            { 
-                loader: 'file-loader', // Эта строка использует file-loader
-                options: {
-                  name: '[name].[ext]',
-                  outputPath: 'css/',
-                },
-              }, 
+            // { 
+            //     loader: 'file-loader', // Эта строка использует file-loader
+            //     options: {
+            //       name: '[name].[ext]',
+            //       outputPath: 'css/',
+            //     },
+            //   }, 
         ],
       },
       {
